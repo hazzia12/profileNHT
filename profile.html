@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Nguyễn Hoàng Tín</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .profile { background-image: url('https://images8.alphacoders.com/133/1330234.png');
+            background-size: cover;
+            background-position:center -110px;
+            border-radius: 0px;
+            box-shadow: 12 0 0px rgba(0, 0, 0, 0.1);
+            color: #333;
+            padding-top: 40px;
+            position: relative;
+            width: 400px;
+            max-width: 500%;
+            text-align: center;
+        }
+
+        .profile img {
+            width: 140px;
+            height: 140px;
+            border: 4px solid #03bfcb;
+            border-radius: 50%;
+            margin-top: -30px;
+        }
+
+        .profile h3 {
+            font-size: 24px;
+            margin: 10px 0;
+            text-transform: uppercase;
+            color: #97FFFF;
+        }
+
+        .profile h6 {
+            margin: 5px 0;
+            color: #000000;
+        }
+
+        .profile p {
+            font-size: 16px;
+            line-height: 24px;
+            color: #97FFFF;
+        }
+
+        .profile button {
+            background-color: #03bfcb;
+            border: 1px solid #03bfcb;
+            border-radius: 3px;
+            color: #fff;
+            padding: 12px 30px;
+            font-weight: 500;
+            margin: 5px;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .profile button:hover,
+        .profile button:focus {
+            background-color: #018c9e;
+            border-color: #018c9e;
+        }
+
+        .skills {
+            background-color: #ecf0f3;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        .skills h6 {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .skills li {
+            display: inline-block;
+            font-size: 14px;
+            margin: 7px;
+            padding: 7px 12px;
+            background-color: #03bfcb;
+            color: #fff;
+            border-radius: 20px;
+        }
+                .skills ll {
+display: inline-block;
+font-size: 14px;
+margin: 7px;
+padding: 7px 12px;
+background-color: #F555;
+color: #000000;
+border-radius: 20px;
+text-align: left;
+
+        }
+        .skills den{
+            display: inline-block;
+            font-size: 16px;
+            margin: 9px;
+            padding: 9px 14px;
+            background-color: #03bfcb;
+            color: #fff;
+            border-radius: 20px;
+            background-color: #018c9e;
+            border-color: #018c9e;
+        }
+
+        .font i{ 
+            color: #97FFFF; 
+            font-size: 24px;
+            font-style: italic;
+            font-weight: bold;
+}
+        .color b{
+            color: #97FFFF; 
+        }
+    </style>
+</head>
+<body>
+    <div class="profile">
+        <img src="https://i.imgur.com/du87c58.jpg" alt="Profile Image">
+        <h3>Nguyễn Hoàng Tín</h3>
+        <h6>20/09/2006 - VietNam</h6>
+        
+        <button id="facebook" onclick="changeToFacebook()">Facebook</button>
+        <den id="Đến trang các trick lỏ" onclick = "mowebtricklo()"><button>OPEN WEB TUT TRICKER</button></den>
+        <div class="skills">
+            <h6>Skill</h6>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Photoshop</li>
+                <li>check ip ex</li>
+                <br><b><i><size = 5>Copyright :</size></b></i><a> NguyenHoangTin</a>
+                <b><i>Web Developer in love with <br> Software Engineering and music<br></i></b>
+                         <b><i><ll>Photoshop<br>    -> chỉnh ảnh, chỉnh màu <color = #FFFFOO>theo yêu cầu</color><br>ghép ảnh game, tạo scp nhân vật 2D<br> ghép mặt vào ảnh khác, edit video<br>tạo ảnh fake, vẽ anime, thiết kế vv<br>fake cccd, cmnd</ll>
+        <ll>code<br>     -> code theo yêu cầu còn code được hay không không biết<br> cho thuê, bán file bot</ll>
+        <ll>hack<br>     -> mã độc xâm nhập máy tính<br> điều khiển máy tính chung một dây mạng <br> link hack acc facebook<br>link check địa chỉ ip</ll>
+        <ll>Hỗ trợ<br>     -> rename, bán acc game...</ll></i></b>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+    <script>
+function changeToFacebook() {
+    window.location.href = 'https://m.facebook.com/100055512802635';
+}
+function mowebtricklo(){window.location.href = 'https://popskid.com';}
+
+        function changeToAbout() {
+            let aboutText = document.querySelector('.profile p');
+            aboutText.innerHTML = 'Web Developer in love with <br> Software Engineering and Android';
+        }
+    </script>
+    <a>
+</body>
+</html>
